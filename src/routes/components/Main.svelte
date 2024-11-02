@@ -3,41 +3,41 @@
 
     let steps = [
         {
-            name: "Smoljames Store",
-            icon: "fa-solid fa-cart-shopping",
+            name: "Image Gallery Project", 
+            icon: "fa-solid fa-list-check",
             description:
-                "Smoljames Store is a a merchanising store created with Next.js, Commerce.js & Stripe! Commerce.js is a CMS for managing project and Stripe is used for all transaction handling.",
+                "Since pandemic started I came up to love online shopping up until now,especially there are so many online shops.",
         },
         {
-            name: "Utlimate Todos",
+            name: "KanBan Project",
             icon: "fa-solid fa-list-check",
             description:
                 "Test for model robustness with customized test profiles and receive exhaustive reporting on the performance and potential vulnerabilities of your model.",
         },
         {
-            name: "Pokédex",
-            icon: "fa-solid fa-diagram-project",
+            name: "Flight Booking System",
+            icon: "fa-solid fa-list-check",
             description:
                 "Augment your datasets with our filters and dataset manipulations to ensure your models are trained on the highest quality datasets (coming soon).",
         },
     ];
 
-    let benefits = [
+    let benefits = [        
         {
             metric: "10x",
-            name: "a self taught developer",
+            name: "as a dog lover",
             description:
-                "I taught myself to code using free online resources and absolutely fell in love with the creativity and problem solving that is involved in developing and engineering innovative new online experiences. Starting of with JavaScript, HTML & CSS and evolving my knowledge base to include JavaScript frameworks, backend programming, design, cloud services and much much more.",
+        "As a dog lover,I gain a wide range of emotional, physical, and social benefits from my bond with dogs.Unconditional Love and Companionship.Dogs remind you to appreciate the present. Their joy in simple things—like a belly rub or chasing a ball—teaches you the value of living in the moment and finding happiness in everyday experiences. ",
         },
         {
-            name: "a product design & UX finatic",
+            name: "a Struggling student in Major Subjects",
             description:
-                "Carefully crafting and designing amazing user experiences allows me to express and experiment with every morsel of creativity I have. I love the challenge of learning new design concepts and enabling users with amazing online experiences.",
+                "I'm also a student who struggles when it comes to major subjects but can handle it for the dream, it has a huge impact on me that I have classmates who help me understand the things that I struggle with when it comes to studying..",
         },
         {
-            name: "an excellent communicator",
+            name: "a Girl with a Dream",
             description:
-                "Communication is key and it's a paramount value of mine. I believe in transparency and constructive communication above all else. This helps me develop deep relationships and ensures my effectiveness and productivity in any work space with any team.",
+        "A young girl stands on the edge of possibility, her eyes bright with ambition and hope. She dreams of a future where she breaks barriers, explores new worlds, and makes her mark. With determination in her heart and a spark of creativity in her soul, she knows that no matter how far away her dreams may seem, every step forward brings her closer to making them a reality.",
         },
     ];
 </script>
@@ -51,58 +51,26 @@
             class="flex flex-col lg:justify-center text-center lg:text-left gap-6 md:gap-8 lg:gap-10"
         >
             <h2 class="font-semibold text-4xl sm:text-5xl md:text-6xl">
-                Hi! I'm <span class="poppins text-violet-400">Samuel</span> Oak
-                <br />Full Stack
-                <span class="poppins text-violet-400">Developer</span>
+                Hi! I'm <span class="poppins text-violet-400">Casey</span> Nojadera
+                <br />A BSCS 
+                <span class="poppins text-violet-400">College student.</span>
             </h2>
             <p class="text-base sm:text-lg md:text-xl">
-                My <span class="text-violet-400"> favorite tech</span> includes JavaScript
-                (NEXT.JS or SvelteKit), TailwindCSS, Node.js + Express.js & PostgreSQL
-                or Firebase/Firestore!
+                I am  <span class="text-violet-400"> currently a 3rd Year College student.</span> I hope I can be successful someday!
             </p>
-            <button
-                class="blueShadow mx-auto lg:mr-auto lg:ml-0 text-base sm:text-lg md:text-xl poppins relative overflow-hidden px-6 py-3 group rounded-full bg-white text-slate-950"
-            >
-                <div
-                    class="absolute top-0 right-full w-full h-full bg-violet-400 opacity-20 group-hover:translate-x-full z-0 duration-200"
-                />
-                <h4 class="relative z-9">Get in touch &rarr;</h4>
-            </button>
         </div>
-        <div class="relative shadow-2xl grid place-items-center">
-            <img
-                src={"images/profile.png"}
-                alt="Zetane Engine"
-                class="object-cover z-[2] max-h-[70vh]"
-            />
-        </div>
-        <!-- <div  class="flex p-0.5 relative max-w-[700px] w-full mx-auto">
-            <div
-                class="absolute inset-0 overflow-hidden rounded-md flex items-center justify-center"
-            >
-                <div
-                    class="bg-gradient-to-r absolute inset-[-20px]  from-violet-800 to-indigo-800 specialSpin"
-                />
-            </div>
-
-            <img
-                src={"images/zetane-engine.jpeg"}
-                alt="Zetane Engine"
-                class="w-full h-full object-cover z-[2]"
-            />
-        </div> -->
     </section>
     <section class="py-20 lg:py-32 flex flex-col gap-24" id="projects">
         <div class="flex flex-col gap-2 text-center">
             <h6 class="text-large sm:text-xl md:text-2xl">
-                A few of my creative endeavors.
+                A few of my creative works.
             </h6>
             <h3 class="font-semibold text-3xl sm:text-4xl md:text-5xl">
                 Curious to <span class="poppins text-violet-400">see</span> my work?
             </h3>
         </div>
         <a
-            href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"
+            href="https://youtu.be/ZiewIylF0f4?si=7ZY-o3MUCeZEozBX"
             target="_blank"
             class="mx-auto px-4 py-2 rounded-md border border-solid border-white flex items-center gap-2 -mb-4 sm:-mb-0 -mt-10 hover:border-violet-700 duration-200"
         >
@@ -112,35 +80,31 @@
         <div class="grid grid-cols-1 lg:grid-cols-3 gap-12 lg:gap-10">
             <Step step={steps[0]}>
                 <p>
-                    Smoljames Store is a a merchanising store created with <strong
+                    ''Design an interface to display image thumbnails and allow users to view full size images. Implement functionality for image uploads. Consider incorporating functionalities like image editing and user comments.'' <strong
                         class="text-violet-400"
-                        >Next.js, Commerce.js, Stripe & Node.js + Express.js!</strong
-                    > Commerce.js is a product CMS and Stripe is used for all transaction
-                    handling.
+                        ></strong
+                    > 
                 </p>
             </Step>
             <Step step={steps[1]}>
                 <p>
-                    Ultimate Todos is a Full Stack <strong
-                        class="text-violet-400">Next.js</strong
-                    >,
-                    <strong class="text-violet-400">Node.js + Express.js</strong
+                    ''An interface design with columns representing stages in workflow (To Do, In progress, Done) implement drag and drop functionality to move task between columns. Considering adding functionalities like editing task details and due dates.''<strong
+                        class="text-violet-400"></strong
                     >
-                    & <strong class="text-violet-400">Firebase</strong> CRUD application
-                    that allows a user to login, manage a tidy and efficacious todo
-                    list, and persist this information across devices.
+                    <strong class="text-violet-400"></strong
+                    >
+                     <strong class="text-violet-400"></strong>
                 </p>
             </Step>
             <Step step={steps[2]}>
                 <p>
-                    The Pokédex is a <strong class="text-violet-400"
-                        >SvelteKit & TailwindCSS</strong
+                    A Flight Booking System is a software that allows users to search, book, and manage airline tickets. It enables customers to browse flights, compare prices, choose seats, and securely pay. Key features include user registration, real-time flight availability, booking confirmations, and itinerary management. For airline staff, it offers tools to manage schedules, track bookings, and handle cancellations. The system aims to simplify booking, improve customer convenience, and boost airline efficiency. <strong class="text-violet-400"
+                        ></strong
                     >
-                    web application, hosted on
-                    <strong class="text-violet-400">Netlify</strong>, that
-                    consumes and caches the
-                    <strong class="text-violet-400">Pokémon API</strong>
-                    to display all Pokémon information. Gotta catch them all!
+                    
+                    <strong class="text-violet-400"></strong>, 
+                    <strong class="text-violet-400"></strong>
+                    
                 </p>
             </Step>
         </div>
@@ -196,71 +160,7 @@
             {/each}
         </div>
         <h5 class={" text-2xl sm:text-3xl font-semibold text-center poppins "}>
-            The <span class="text-violet-400">Complete</span> Package
+            CASEY <span class="text-violet-400">NOJADERA</span> PORFOLIO
         </h5>
-        <div
-            class="flex flex-col overflow-x-scroll gap-10 max-w-[800px] mx-auto w-full"
-        >
-            <table class="bg-white text-slate-700 rounded text-center">
-                <thead class={"border-b border-solid border-slate-200  "}>
-                    <tr class="">
-                        <th />
-                        <th class="whitespace-nowrap p-2 px-4">Candidate #1</th>
-                        <th class="whitespace-nowrap p-2 px-4">Candidate #2</th>
-                        <th class="whitespace-nowrap p-2 px-4">Candidate #3</th>
-                        <th
-                            class="bg-violet-700 text-white whitespace-nowrap p-4 px-8"
-                            >Me</th
-                        >
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr class="border-b border-solid border-slate-200">
-                        <td
-                            class="border-r border-solid border-white pl-4 pr-8 py-4 font-semibold text-sm"
-                            >Dedication</td
-                        >
-                        <td><i class="fa-solid fa-xmark text-slate-500" /></td>
-                        <td><i class="fa-solid fa-check text-slate-500" /></td>
-                        <td><i class="fa-solid fa-xmark text-slate-500" /></td>
-                        <td><i class="fa-solid fa-check text-green-500" /></td>
-                    </tr>
-                    <tr class="border-b border-solid border-slate-200">
-                        <td
-                            class="border-r border-solid border-white pl-4 pr-8 py-4 font-semibold text-sm"
-                            >Critical Thought</td
-                        >
-                        <td><i class="fa-solid fa-xmark text-slate-500" /></td>
-                        <td><i class="fa-solid fa-check text-slate-500" /></td>
-                        <td><i class="fa-solid fa-check text-slate-500" /></td>
-                        <td><i class="fa-solid fa-check text-green-500" /></td>
-                    </tr>
-                    <tr>
-                        <td
-                            class="border-r border-solid border-white pl-4 pr-8 py-4 font-semibold text-sm"
-                            >Interpersonal Skills</td
-                        >
-                        <td><i class="fa-solid fa-check text-slate-500" /></td>
-                        <td><i class="fa-solid fa-check text-slate-500" /></td>
-                        <td><i class="fa-solid fa-xmark text-slate-500" /></td>
-                        <td><i class="fa-solid fa-check text-green-500" /></td>
-                    </tr>
-                    <tr class="border-t border-solid border-slate-200">
-                        <td
-                            class="border-r border-solid border-white pl-4 pr-8 py-4 font-semibold text-sm"
-                            >Progamming Ability</td
-                        >
-                        <td><i class="fa-solid fa-check text-slate-500" /></td>
-                        <td><i class="fa-solid fa-xmark text-slate-500" /></td>
-                        <td><i class="fa-solid fa-check text-slate-500" /></td>
-                        <td><i class="fa-solid fa-check text-green-500" /></td>
-                    </tr>
-                </tbody>
-            </table>
-        </div>
-        <div class="mx-auto -mt-12 italic sm:hidden opacity-50">
-            <p>Scroll to see more &rarr;</p>
-        </div>
-        <p class="mx-auto">So why not invest?</p>
     </section>
 </main>
