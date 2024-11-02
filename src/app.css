@@ -1,11 +1,8 @@
 @import "tailwindcss/base";
-<<<<<<< HEAD
 @import "tailwindcss/components";
 @import "tailwindcss/utilities";
-=======
 @import "tailwind/components";
 @import "tailwind/utilities";
->>>>>>> 40985a6a9051537d003b0d8c3c05c5f3627a76ba
 html {
     scroll-behavior: smooth;
 }
@@ -47,8 +44,4 @@ h3,
 .img {
     object-position: center;
     object-fit: cover;
-<<<<<<< HEAD
 }
-=======
-}
->>>>>>> 40985a6a9051537d003b0d8c3c05c5f3627a76ba
